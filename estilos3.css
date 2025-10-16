@@ -1,0 +1,78 @@
+article{
+width: 500px;
+height: 1900px;
+float: left;
+background: lightblue;
+}
+#right-derecha{ 
+width: 1400px;
+height: 400px;
+float: left;
+}
+footer {
+background: pink;
+clear: both;
+}
+nav{
+width: 750px;
+height: 100px;
+background: blue;
+margin-top: 10px;
+} 
+para eliminar los puntos y espacios*/
+nav ul {
+list-style: none;
+margin: 0px; 
+padding: 0px;
+}
+/*Para que sea flotante a izquierda */ 
+nav ul li{
+float: left;
+}
+nav a{
+color: rgba(255, 255, 255, 1);
+text-decoration: none;
+display: block;
+padding: 50px;
+} 
+main{
+width: 750px;
+height: 1910px;
+background: green; 
+margin-top: 10px;
+} 
+#left-izquierda{
+width: 150px;
+height: 1900px;
+background: red;
+float: left;
+} 
+body {
+background: rgb(247, 237, 153);
+} 
+#contenedor{
+width: 750px; 
+height: 750px; 
+margin: auto; 
+background: yelow; 
+border-radius: 20px; 
+margin-top: 10px;
+} 
+header {
+width: 750px; 
+height: 250px; 
+background: yellow; 
+margin-top: 10px;
+}
+#banner{ 
+width: 500px; 
+height: 250px; 
+background: purple; 
+float: left;
+}
+#Login{
+width: 100px; 
+height: 100px; 
+background: blue; 
+float: left;
+}
